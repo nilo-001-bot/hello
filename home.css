@@ -1,0 +1,56 @@
+* { /* Resets margin and padding for all elements */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: 'Poppins', sans-serif; /* Sets the font for the entire document */
+    box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+
+body { /* Main container for the app */
+    width: 100%; /* Full width of the container */
+    min-height: 100vh; /* Minimum height of the container to fill the viewport */
+    background: linear-gradient(135deg, #153677, #4e085f); /* Background gradient */
+    padding: 10px ; /* Padding around the container */
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-right: 80px;
+}
+
+
+.container { /* Container for the to-do application */
+    width: 100%; /* Full width of the to-do app */
+    max-width: 540px; /* Maximum width of the app */
+    backdrop-filter: blur(500px);
+    margin:  0px 0px 0px 650px  ; /* Center the app with margin */
+    padding: 40px 30px 2px; /* Padding inside the app */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid;
+}
+
+.space{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: large;
+}
+
+.unit{
+    height: 36px;
+    border-radius: 6px;
+    width: 130px;
+    font-size: 20px;
+}
+
+button{
+    font-size: 25px;
+    margin:  15px 10px 15px 45px;
+    width: 150px;
+    height: 40px;
+}
